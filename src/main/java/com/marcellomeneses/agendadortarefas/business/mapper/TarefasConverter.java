@@ -20,4 +20,5 @@ public interface TarefasConverter {
     List<TarefasEntity> paraListaTarefasEntity(List<TarefasDTO> dtos);
 
     List<TarefasDTO> paraListaTarefasDTO(List<TarefasEntity> entities);
+
 }
